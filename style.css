@@ -1,0 +1,36 @@
+body{
+    margin: 20px;
+}
+#search {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+}
+#search h1{
+    padding: 20px;
+}
+#search input{
+    border-radius: 3px ;
+    border: none;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#search button{
+    height: 30px;
+    background-color: coral;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 3px ;
+}
+
+
+#results{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+    position: relative;
+}
