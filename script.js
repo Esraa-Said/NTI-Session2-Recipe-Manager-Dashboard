@@ -51,8 +51,7 @@ function search(myData, text) {
         myData[i].strMealThumb,
         myData[i].strMeal,
         myData[i].strCategory,
-        myData[i].strArea,
-        text
+        myData[i].strArea
       );
     }
   }
