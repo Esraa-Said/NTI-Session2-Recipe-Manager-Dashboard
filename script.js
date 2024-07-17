@@ -10,13 +10,12 @@ function capitalizeFirstLetterOfEachWord(str) {
   });
   return capitalizedWords.join(" ");
 }
-btn.addEventListener("click", async (event) => {
-  event.preventDefault();
+btn.addEventListener("click", async () => {
   console.log(input.value);
   resultsBlocks.innerHTML = "";
   newText.innerHTML = "";
   let text = capitalizeFirstLetterOfEachWord(input.value);
-  get(text);
+  await get(text);
 });
 
 async function get(text) {
